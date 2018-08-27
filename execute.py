@@ -62,6 +62,7 @@ def main():
         if k == 27:
             break
 
+
 def keras_predict(model, image):
     processed = keras_process_image(image)
 
